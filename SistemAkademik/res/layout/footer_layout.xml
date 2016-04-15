@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FooterStyle" >
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:text="WWW.STIKOMBANYUWANGI.AC.ID \n Sistem Informasi Akademik Berbasis Android - 2012"
+	    android:textColor="#ffffff"
+	    android:textSize="13sp" />
+
+</LinearLayout>

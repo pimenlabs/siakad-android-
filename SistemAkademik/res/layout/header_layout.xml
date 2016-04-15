@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/HeaderStyle" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:paddingLeft="10dip"
+        android:scaleType="center"
+        android:src="@drawable/stikom_logo" />
+
+</LinearLayout>

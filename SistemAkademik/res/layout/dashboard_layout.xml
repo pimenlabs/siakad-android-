@@ -1,0 +1,56 @@
+<dlmbg.pckg.sistem.akademik.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/btn_jadwal"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_jadwal"
+        android:text="Jadwal Kuliah" />
+    
+    <Button
+        android:id="@+id/btn_khs"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_khs"
+        android:text="Kartu Hasil Studi" />
+    
+    <Button
+        android:id="@+id/btn_transkrip"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_transkrip"
+        android:text="Transkrip Nilai" />
+	
+    <Button
+        android:id="@+id/btn_rangking"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_rangking"
+        android:text="Rangking Angkatan" />
+
+    <Button
+        android:id="@+id/btn_info"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_info"
+        android:text="Info Kampus" />
+
+    <Button
+        android:id="@+id/btn_keuangan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_keuangan"
+        android:text="Cek Kehadiran Dosen" />
+
+    <Button
+        android:id="@+id/btn_akun"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_akun"
+        android:text="Pengaturan Akun" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_logout"
+        android:text="Log Out dan Keluar" />
+
+</dlmbg.pckg.sistem.akademik.DashboardLayout>

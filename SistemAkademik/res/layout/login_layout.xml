@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#F0F0F0"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/txt_alert"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#CA3333"
+    android:text=""
+    android:textColor="#ffffff"
+    android:textSize="16px" >
+
+</TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Masukkan Username"
+    android:textColor="#000000"
+    android:textSize="16px" >
+</TextView>
+
+<EditText
+    android:id="@+id/txt_username"
+    style="@style/EditTextStyle" >
+</EditText>
+
+<TextView
+    android:id="@+id/widget31"
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Masukkan Password"
+    android:textSize="16px" >
+</TextView>
+
+<EditText
+    android:id="@+id/txt_pass"
+    style="@style/EditTextPassStyle" >
+</EditText>
+
+<Button
+    android:id="@+id/btn_login"
+    style="@style/CommonButton"
+    android:text="Masuk Sistem" />
+<Button
+    android:id="@+id/btn_hapus"
+    style="@style/CommonButton"
+    android:text="Hapus Data" >
+
+</Button>
+
+<TextView
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:text="NB : Hubungi DLMBG di www.gedelumbung.com jika mengalami kesulitan proses log in"
+    android:textSize="13px" >
+</TextView>
+
+</LinearLayout>

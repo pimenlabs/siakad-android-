@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/url"
+	android:icon="@drawable/url"
+	android:title="STIKOM Banyuwangi" />
+	<item android:id="@+id/tentang"
+	android:icon="@drawable/tentang"
+	android:title="Tentang Kami" />
+</menu>

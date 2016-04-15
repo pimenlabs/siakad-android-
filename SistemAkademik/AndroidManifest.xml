@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dlmbg.pckg.sistem.akademik"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SistemAkademikActivity"
+            android:label="Sistem Akademik" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="DashBoardActivity" android:label="DashBoard Sistem Akademik"></activity>
+		<activity android:name="JadwalKuliahActivity" android:label="Jadwal Kuliah Semester Ini"></activity>
+		<activity android:name="TranskripActivity" android:label="Transkrip Nilai Kuliah"></activity>
+		<activity android:name="RangkingActivity" android:label="Rangking Per Angkatan"></activity>
+		<activity android:name="DetailRangkingActivity" android:label="Rangking Per Angkatan"></activity>
+		<activity android:name="AkunActivity" android:label="Pengaturan Akun"></activity>
+		<activity android:name="KhsActivity" android:label="Kartu Hasil Studi (KHS)"></activity>
+		<activity android:name="DetailKhsActivity" android:label="Detail Kartu Hasil Studi (KHS)"></activity>
+		<activity android:name="InfoKampusActivity" android:label="Info Seputar Kampus"></activity>
+		<activity android:name="DetailInfoActivity" android:label="Info Seputar Kampus"></activity>
+		<activity android:name="CekDosenActivity" android:label="Info Seputar Kampus"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
